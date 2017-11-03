@@ -1,0 +1,61 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            //Calculator Program
+
+            double n1, n2, reslt;
+            Console.WriteLine("Please Enter Number 1:");
+            n1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Please Enter Number 2:");
+            n2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Please Enter Operator:");
+            char oper=Convert.ToChar(Console.ReadLine());
+            switch (oper)
+            {
+                case'+':
+                    reslt = n1 + n2;
+                    Console.WriteLine("Result = "+reslt);
+                    break;
+
+                case '-':
+                    reslt = n1 - n2;
+                    Console.WriteLine("Result = "+reslt);
+                    break;
+
+                case '*':
+                    reslt = n1 * n2;
+                    Console.WriteLine("Result = "+reslt);
+                    break;
+
+                case '/':
+                    reslt = n1 / n2;
+                    Console.WriteLine("Result = "+reslt);
+                    break;
+
+                default:
+                    Console.WriteLine("Not Found Operator");
+                    break;
+
+            }
+
+
+
+
+
+
+
+        }
+
+    }
+}

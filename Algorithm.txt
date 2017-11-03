@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApplicatio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //1:inilation variable name x type:int and value=20
+            int x = 20;
+            //2:calcualte area=x*x
+            double area = x * x;
+            //3:print Statement (Area For Hape =area)
+            Console.WriteLine("Area For Hape =" + area);
+
+
+        }
+    }
+}

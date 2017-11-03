@@ -1,0 +1,232 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Create Exam Online 
+            int mark = 10;
+            int point = 2;
+            int point2 = 6;
+            int result=0;
+            int result2 = result;
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.WriteLine("Enter User Name(ID #N=2041996)\n");//2041996
+            int id1 = 2041996;
+            int id_number = Convert.ToInt32(Console.ReadLine());
+
+           
+            if (id1 == id_number)
+            {
+                Console.BackgroundColor = ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.WriteLine();
+                Console.WriteLine("Correct");
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine("Not Correct");
+                 id_number = Convert.ToInt32(Console.ReadLine());
+                    if (id1 == id_number)
+                    {
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.WriteLine();
+                    Console.WriteLine("Correct");
+                    Console.WriteLine();
+                }
+                    else
+                    {
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.WriteLine();
+                    Console.WriteLine("Not Correct");
+                        id_number = Convert.ToInt32(Console.ReadLine());
+                        }
+                    }
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine();
+            Console.WriteLine("Enter Your Password(123456):\n");  //Password : 123456
+            int pass_uni = 123456;
+            int pass = Convert.ToInt32(Console.ReadLine());
+            if (pass == pass_uni)
+            {
+                Console.BackgroundColor = ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.WriteLine();
+                Console.WriteLine("OK,Open Your Exam");
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.BackgroundColor = ConsoleColor.Red;
+                Console.WriteLine();
+                Console.WriteLine("Enter Your Password(123456):\n");  //Password : 123456
+                Console.WriteLine("Password is not correct");
+                 pass = Convert.ToInt32(Console.ReadLine());
+                if (pass == pass_uni)
+                {
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.WriteLine();
+                    Console.WriteLine("OK,Open Your Exam");
+                }
+                else
+                {
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.WriteLine();
+                    Console.WriteLine("Password is not correct");
+                    pass = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine();
+                }
+
+            }
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.ForegroundColor = ConsoleColor.Black;
+
+            Console.WriteLine("Question 1: MultiChoese\n");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("A-The C sharp language belongs to a working environment\n");
+            string[] prog = { "visual studio", "netbeans", "codeblock", "nothing" };
+            foreach( string q1 in prog)
+            {
+                Console.Write(q1 + "\t ");
+            }
+            string a1 = Console.ReadLine();
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine();
+            Console.WriteLine("Saved Answer\n");
+            Console.WriteLine();
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("B-C Sharp is not an object oriented programming language\n");
+            string[] oop = { "True", "False" };
+            foreach(string q2 in oop)
+            {
+                Console.Write(q2 + " \t");
+            }
+            string a2 = Console.ReadLine();
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine();
+            Console.WriteLine("Saved Answer\n");
+            Console.WriteLine();
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("What is the output of the following code:\n");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("for(int i=4;i<=9;i*=2){\n Console.WriteLine(Countinue); for (int j=1;j<3;j++){\n Console.WriteLine(Hello World}\n}Console.WriteLine(Finshed);\n ");
+            string[] output = { "Continue\nHello World\nFinshed", "Continue\nHello WorldHello WorldHello World\nFinshed", " Continue\nHello WorldHello WorldHello World", "Error Code" };
+            string a3 = Console.ReadLine();
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine();
+            Console.WriteLine("Saved Answer\n");
+            Console.WriteLine();
+            if (a1 == prog[0])
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Black;
+
+                Console.WriteLine("Question 1(A) is correct\t Point 2");
+                result += point;
+                result2 += result;
+                Console.BackgroundColor = ConsoleColor.Green;
+                //Console.WriteLine();
+                Console.WriteLine("Result A is " + result);
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Black;
+
+                Console.WriteLine("Question 1(A) is not correct\t Point 0");
+                result = 0;
+                result2+= result;
+                Console.BackgroundColor = ConsoleColor.Red;
+                //Console.WriteLine();
+                Console.WriteLine("Result A is " + result);
+                Console.WriteLine();
+            }
+           
+            if (a2 == oop[1])
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Black;
+                //Console.WriteLine();
+                Console.WriteLine("Question 1(B) is correct\t Point 2");
+                    result = 0;
+                result += point;
+                result2 += result;
+
+                Console.BackgroundColor = ConsoleColor.Green;
+
+                Console.WriteLine("Result B is " + result);
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.WriteLine();
+                Console.WriteLine("Question 1(B) is not correct\t Point 0");
+                Console.BackgroundColor = ConsoleColor.Red;
+                result = 0;
+                result2+= result;
+                //Console.WriteLine();
+                Console.WriteLine("Result B is " + result);
+
+
+            }
+            if (a3=="Continue\nHello WorldHello WorldHello World\nFinshed")
+            {
+                result2 += result;
+                result = 0;
+                Console.BackgroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Black;
+
+                Console.WriteLine();
+                Console.WriteLine("Question 2:The OutPut is correct\t Point 6");
+                result += point2;
+                Console.BackgroundColor = ConsoleColor.Green;
+                //Console.WriteLine();
+                Console.WriteLine("Result Q3 is " + result);
+
+            }
+            else
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Black;
+                //Console.WriteLine();
+                Console.WriteLine("Question2: The OutPut is not correct\t Point 0");
+                Console.BackgroundColor = ConsoleColor.Red;
+                result = 0;
+                result2 += result;
+                //Console.WriteLine();
+                Console.WriteLine("Result Q3 is " + result);
+
+            }
+            Console.WriteLine();
+            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+
+            Console.WriteLine("Final Marker = " + result2);
+            Console.WriteLine();
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.WriteLine("Your Id is: " + id_number);
+            Console.WriteLine("Your Mark is " + result2);
+        }
+    }
+}

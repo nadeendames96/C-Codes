@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApplicatio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 0, y = 0;
+            double r = ++x + y--;
+            int t = x++ * (++y / x);
+            Console.WriteLine(x++);   //0     x=1
+            Console.WriteLine(++x);   //2
+            Console.WriteLine(y--);    //0   y=-1
+            Console.WriteLine(--y);     //-2
+
+
+        }
+    }
+}

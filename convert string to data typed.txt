@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+
+            string e =Convert.ToString(10.5);
+
+            string e1 = Convert.ToString(10);
+
+            string e2 = Convert.ToString('A');
+
+            string e3 = Convert.ToString(true);
+
+
+
+
+
+
+
+        }
+
+    }
+}

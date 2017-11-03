@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApplicatio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x = Convert.ToInt32(10.5);
+            Console.WriteLine("X=" + x);
+
+            //converion between int to double
+            int y = (int)10.8;  //cating
+            
+            float q = (float)0.7;
+            float r=7.8f;
+
+            int u = (char)96;
+            Console.WriteLine(u);
+            //char i = Convert.ToInt32('A');
+        }
+    }
+}

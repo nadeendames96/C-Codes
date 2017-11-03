@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApplicatio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*int x = 10, y = 12;
+            Console.WriteLine("X:{0}", x);
+            Console.WriteLine();
+            Console.WriteLine("Y:{0}", y);
+            */
+            /* Console.WriteLine("X =" +0);
+             double r = 1.5;
+             char e = 'N';
+             bool t = true;
+             Console.WriteLine("R:{0}",r);
+             Console.WriteLine("E:{0}",e);
+             Console.WriteLine("T:{0}",t);
+             // Console.Write("R:{0}+E:{1}+T:{3}", r, e, t);*/
+            Console.WriteLine("Pleae Enter Value");
+            int d = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The Value " + d);
+            double p =Convert.ToDouble( Console.ReadLine());
+
+            float w = Console.Read();
+            Console.ReadKey();
+        }
+    }
+}

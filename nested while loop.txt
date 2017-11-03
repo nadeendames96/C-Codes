@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            int a = 20;
+            bool x = true;
+            while (a <= 25)
+            {
+                Console.WriteLine("Countinue\n");
+                a++;
+
+                while (x)
+                {
+                    Console.WriteLine("X =" + x);
+                    x = false;
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("End");
+
+            Console.ReadKey();
+
+
+
+
+        }
+
+    }
+}

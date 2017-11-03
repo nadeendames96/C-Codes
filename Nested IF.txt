@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int x = 4;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.Title=("If Statements");
+
+            if (x == 4)
+            {
+                Console.WriteLine("X is Correct: " + x);
+                Console.WriteLine("Continue...");
+                if (x == 5)
+                //{
+                    Console.WriteLine();
+                //}
+
+
+                else
+                {
+                    Console.WriteLine("X is not Correct: " + 5);
+                }
+            }
+            else
+            {
+                Console.Title=("Stop Program");
+            }
+
+            Console.WriteLine("Finsh");
+           
+            Console.ReadKey();
+
+
+
+
+        }
+
+    }
+}

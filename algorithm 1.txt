@@ -1,0 +1,11 @@
+/* step 1:inizalize variable name x data type integer and give value equal 0
+             int x = 0;
+
+            step2: print value for varialbe x
+              console.WriteLine(x);
+
+              step3: re enter new value for x equal 7
+             x = x + 7;
+
+             step4:print new value for variable x
+            Console.WriteLine(x);*/

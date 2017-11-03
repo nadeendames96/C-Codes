@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApplicatio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //create variable name x type int and give value =10
+            int x = 10;
+            //create variable name y type double and give value=1.5
+            double y = 1.5;
+            //create variable name name type char and give value=N
+            char name = 'N';
+            //create varaible name bool1  type=Boolean and give value=true
+            bool bool1 = true;
+
+        }
+    }
+}

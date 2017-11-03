@@ -1,0 +1,7 @@
+int x=4;
+            double y = 4.5;
+            float e =8;
+            string x1 = "Nadeen";
+            char X = 'A';
+            bool f = true;
+            int x5 = 7;

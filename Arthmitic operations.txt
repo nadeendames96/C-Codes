@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApplicatio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x, y;
+            Console.WriteLine("Pleae enter 2 varialble type double and output reult");
+            x = Convert.ToDouble(Console.ReadLine());
+            y= Convert.ToDouble(Console.ReadLine());
+            double reult = (x + y)+4*(x-y)/2;
+            Console.WriteLine("Reult =" + reult);
+            Console.ReadKey();
+        }
+    }
+}

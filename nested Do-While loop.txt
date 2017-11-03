@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+            int a = 5;
+            string name = "Nadeen";
+            do
+            {
+                Console.WriteLine("a =" + a+"\n");
+                Console.WriteLine(name);
+                
+                do
+                {
+                    Console.WriteLine("Excellant Code\n");
+                    name = "Lial";
+                }
+                while (name == "Nadeen");
+                a--;
+            }
+            while (a > 1);
+
+            Console.WriteLine("End");
+
+            Console.ReadKey();
+
+
+
+
+        }
+
+    }
+}

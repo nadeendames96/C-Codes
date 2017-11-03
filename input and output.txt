@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x=4, y=20;
+            Console.WriteLine("Summation Between x and y"+x+y);
+            Console.WriteLine("Summation betwwen x and y {0},{1}", x, y);
+            // int q = Convert.ToInt32(Console.ReadLine());
+            //create veriable p type integer and input by user
+            int p = Convert.ToInt32(Console.ReadLine());
+            //create veriable t type string input by user
+            string t = Console.ReadLine();
+            double X = Console.Read();
+        }
+    }
+}

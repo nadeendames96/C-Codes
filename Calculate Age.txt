@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            //Program for calculating the age
+
+            DateTime my_age;
+            Console.WriteLine("Enter Your BirthDay:");
+            my_age =Convert.ToDateTime( Console.ReadLine());
+
+            int year = Convert.ToInt32(DateTime.Now.Subtract(my_age).TotalDays) / 360;
+            Console.WriteLine("Your Age is:(Year) " +year);
+
+            int month = Convert.ToInt32(DateTime.Now.Subtract(my_age).TotalHours) /24;
+            Console.WriteLine("Your Age is:(Month) " + month);
+
+            int second = Convert.ToInt32(DateTime.Now.Subtract(my_age).TotalMinutes) /60;
+            Console.WriteLine("Your Age is:(Second) " + second);
+
+            Console.ReadKey();
+
+
+
+
+        }
+
+    }
+}

@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+         for(int i = 0; i <= 10; i++)
+            {
+
+                Console.WriteLine("Welcome! \n");
+
+                for(int j = 0; j < 5; j++)
+                {
+                    Console.WriteLine("Good \n");
+                }
+            }
+            Console.WriteLine("End");
+
+
+            Console.ReadKey();
+
+
+
+
+        }
+
+    }
+}

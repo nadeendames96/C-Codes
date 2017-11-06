@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace writecodes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //first way
+            /* int[] array1 = new int[5];
+              for(int i = 0; i < array1.Length; i++)
+              {
+                  //stement
+              }
+              //second way
+              int[] array2 = { 1, 2, 3, 5, 6, 7 };
+              //Console.WriteLine(array2.Length);
+              foreach (int a in array2)
+              {
+                  Console.Write(a+" ");
+              }
+              */
+            double[] array3;
+            array3 =new double[]{1.5,2.5,3.5};
+        }  //end main
+
+    }
+}

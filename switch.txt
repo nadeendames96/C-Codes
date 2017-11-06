@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace writecodes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            //calculator 
+            double n1, n2;
+            Console.WriteLine("Enter 2 Variables:");
+            n1 = Convert.ToDouble(Console.ReadLine());
+            n2= Convert.ToDouble(Console.ReadLine());
+            //double result;
+            Console.WriteLine("Enter Oeration:");
+            char o= Convert.ToChar(Console.ReadLine());
+            switch (o)
+            {
+                case '+':
+                    Console.WriteLine("Result =" + (n1 + n2));
+                    break;
+                case '-':
+                    Console.WriteLine("Result =" + (n1 - n2));
+                    break;
+                case '*':
+                    Console.WriteLine("Result =" + (n1 * n2));
+                    break;
+                case '/':
+                    Console.WriteLine("Result =" + (n1 / n2));
+                    break;
+                default:
+                    Console.WriteLine("Not Found");
+                    break;
+                    
+            }
+        }
+        }
+         }
+            
+
+            
+
+        
+
+    

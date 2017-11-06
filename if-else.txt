@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace writecodes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 4, y = 20;
+            if (x > y) {
+
+
+                Console.WriteLine("x is greather than y");
+                x++;
+            }
+
+         else
+
+                Console.WriteLine("Y is greather than x");
+            y--;  //main method
+            
+        }
+    }
+}

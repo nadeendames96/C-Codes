@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace writecodes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double[,] names = { { 1.5, 2.5 }, {3.5, 4.5 } };
+            for(int i = 1; i < names.GetLength(0); i++)
+            {
+
+                for(int j = 0; j < names.GetLength(1);j++)
+                {
+                    
+                }
+                foreach(double x in names)
+                {
+                   
+                }
+            }
+            {
+
+            }
+
+        }
+
+    }
+}

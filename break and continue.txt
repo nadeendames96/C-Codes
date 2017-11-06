@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace writecodes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           /* int i,j=20;
+            for (i = 1; i <= j; i++)
+            {
+                if (j % i == 0)
+                {
+                    Console.Write(i + " ");
+                    break;
+                }*/
+                for(int a = 1; a<= 7; a++)
+            {
+                if(a==6)
+                continue;
+                
+                Console.Write(a + " ");   //1 2 3 4 5 7
+            }
+
+            }
+            }
+            
+
+            }
+
+        
+
+    
